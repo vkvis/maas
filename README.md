@@ -24,10 +24,16 @@ Mass ig requires [PHP](https://www.php.net/) 5.6 to run.
 
 Follow These Steps for Installation
 $pkg install php
+
 $pkg install git
+
 $pkg install mc
+
 $ git clone https://github.com/vkvis/mass
+
 $ cd mass
+
 $ php login.php
+
 $ php run.php
-```
+
