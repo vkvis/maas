@@ -7,8 +7,8 @@ error_reporting(0);
 
 
 $countTarget    = '50'; 
-$sleep_1        = '3'; 
-$sleep_2        = '5';
+$sleep_1        = '5'; 
+$sleep_2        = '8';
 
 $answerFile		= 'storyAnswer.txt'; 
 $saveFile 		= 'logData.txt'; 
