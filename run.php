@@ -31,7 +31,7 @@ if($cookie){
 		echo "[~] Login as @".$getaccount['user']['username']." \n";
 		echo "[~] [Media : ".$getaccountV2['user']['media_count']."] [Follower : ".$getaccountV2['user']['follower_count']."] [Following : ".$getaccountV2['user']['following_count']."]\n";
 		echo "[~] Please wait 5 second for loading script\n";
-		echo "[~] "; for($x = 0; $x <= 4; $x++){ echo "========"; sleep(3); } echo "\n\n";
+		echo "[~] "; for($x = 0; $x <= 4; $x++){ echo "========"; sleep(5); } echo "\n\n";
 		do {
 			$targets	= file_get_contents('./data/'.$targetFile);
 			$targets 	= explode("\n", str_replace("\r", "", $targets));
@@ -158,7 +158,7 @@ if($cookie){
 				echo "[~] ".count($reels_suc)." story from ".$target." marked as seen\n";
 				echo "[~] ".count($today)." story reacted today\n";
 				echo "[~] ".date('d-m-Y H:i:s')." - Sleep for 30 second to bypass instagram limit\n";
-				echo "[~] "; for($x = 0; $x <= 4; $x++){ echo "========"; sleep(4); } echo "\n\n";
+				echo "[~] "; for($x = 0; $x <= 4; $x++){ echo "========"; sleep(6); } echo "\n\n";
 			}
 			if(count($today) > '250000') {
 				echo "[~] ".count($today)." story reacted today\n";
