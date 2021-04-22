@@ -1,7 +1,7 @@
 # maas
-mass is a automatic instagram story viewer using hashtags, accounts.
+maas is a automatic instagram story viewer using hashtags, accounts.
 
-Mass ,it’s a console-based script created for massvoting (mass poll voting) and masslooking stories
+Maas ,it’s a console-based script created for massvoting (mass poll voting) and masslooking stories
 
 Features:
 
@@ -20,7 +20,7 @@ Features:
 
 # Installation
 
-Mass ig requires [PHP](https://www.php.net/) 5.6 to run.
+Maas ig requires [PHP](https://www.php.net/) 5.6 to run.
 
 Follow These Steps for Installation
 $pkg install php
@@ -31,7 +31,7 @@ $pkg install mc
 
 $ git clone https://github.com/vkvis/mass
 
-$ cd mass
+$ cd maas
 
 $ php login.php
 
