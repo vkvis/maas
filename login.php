@@ -13,9 +13,9 @@ echo "
 	$---------$--------$
 	
 	\n";
-echo " $$$$$$$$$$  Auto  Story Viewer by vishal  $$$$$$$$$$$$$$   \n";
+echo " 🙋‍♂️🙋‍♂️🙋‍♂️ Auto  Story Viewer by vishal  🙋‍♂️🙋‍♂️🙋‍♂️  \n";
 echo "  $-----$----$ Made by 🤑 vishal 🤑 $----$---$  \n\n";
-echo " follow @vk.vis 😍
+echo " follow @_7Z___👍😍
  \n\n";
 echo "[?] Input your instagram username : ";
 $userig    = trim(fgets(STDIN, 1024));
